@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        ul {
+            padding-left: 200px;
+        }
+        
+        li {
+            list-style: none;
+            float: left;
+            margin-right: 10px;
+        }
+        
+        body {
+            perspective: 500px;
+        }
+        
+        .box {
+            position: relative;
+            width: 200px;
+            height: 100px;
+            margin: 100px auto;
+            transform-style: preserve-3d;
+            transition: all .5s;
+        }
+        
+        .front,
+        .bottom {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            color: #fff;
+            font-weight: 700;
+            font-size: 22px;
+            text-align: center;
+            line-height: 100px;
+            background-color: pink;
+        }
+        
+        .bottom {
+            background-color: skyblue;
+            z-index: -1;
+            transform: translateY(50px) rotateX(-90deg);
+        }
+        
+        .front {
+            transform: translateZ(50px);
+        }
+        
+        .box:hover {
+            transform: rotateX(90deg);
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li>
+            <div class="box">
+                <div class="front">孙彤大宝贝</div>
+                <div class="bottom">美丽漂亮大漂亮</div>
+            </div>
+        </li>
+        <li>
+            <div class="box">
+                <div class="front">孙彤大宝贝</div>
+                <div class="bottom">美丽漂亮大漂亮</div>
+            </div>
+        </li>
+        <li>
+            <div class="box">
+                <div class="front">孙彤大宝贝</div>
+                <div class="bottom">美丽漂亮大漂亮</div>
+            </div>
+        </li>
+        <li>
+            <div class="box">
+                <div class="front">孙彤大宝贝</div>
+                <div class="bottom">美丽漂亮大漂亮</div>
+            </div>
+        </li>
+        <li>
+            <div class="box">
+                <div class="front">孙彤大宝贝</div>
+                <div class="bottom">美丽漂亮大漂亮</div>
+            </div>
+        </li>
+        <li>
+            <div class="box">
+                <div class="front">孙彤大宝贝</div>
+                <div class="bottom">美丽漂亮大漂亮</div>
+            </div>
+        </li>
+        <li>
+            <div class="box">
+                <div class="front">孙彤大宝贝</div>
+                <div class="bottom">美丽漂亮大漂亮</div>
+            </div>
+        </li>
+    </ul>
+</body>
+
+</html>

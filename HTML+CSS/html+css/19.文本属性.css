@@ -1,0 +1,31 @@
+/* color属性：文本颜色属性值，三种（1.预定义的颜色值red 2.十六进制#FF0000 3.rgb代码rgb（255，0，0） */
+p {
+    color: red;
+    color: #FF0000;
+    color: rbg(255,0,0);
+}
+
+/* 对齐文本属性(text-align)：左对齐left，中心对齐center，右对齐right */
+p {
+    text-align: center;
+    text-align: left;
+    text-align: right;
+}
+
+/* 装饰文字(text-decoration)：none默认无线，underline下划线，overline上划线，line-through删除线 */
+p {
+    text-decoration: none;
+    text-decoration: underline;
+    text-decoration: overline;
+    text-decoration: line-through;
+}
+
+/* 文本缩进(text-indent):em相对单位，当前缩进一个字的大小 */
+p {
+    text-indent: 2em;
+}
+
+/* 行间距（line-height):字体大小+上间距+下间距 */
+p {
+    line-height: 25px;
+}

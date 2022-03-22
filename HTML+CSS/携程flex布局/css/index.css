@@ -1,0 +1,356 @@
+body {
+    max-width: 540px;
+    min-width: 320px;
+    color: #000;
+    overflow-x: hidden;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-text-size-adjust: none;
+    margin: 0 auto;
+    font: normal 16px/1.5 PingFangSC-regular, Tahoma, Lucida Grande, Verdana, Microsoft Yahei, STXihei, hei;
+}
+
+a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #000;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* 顶部搜索模块 */
+
+.top-search {
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    max-width: 540px;
+    min-width: 320px;
+    display: flex;
+    height: 46px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background-color: #F6F6F6;
+}
+
+.search {
+    flex: 1;
+    height: 26px;
+    margin: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 20%);
+    font-size: 12px;
+    line-height: 26px;
+}
+
+.search::before {
+    content: '';
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 0 5px;
+    background: url(../images/sprite.png) no-repeat -58px -279px;
+    background-size: 104px;
+    vertical-align: middle;
+}
+
+.user {
+    width: 44px;
+    height: 44px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.user::before {
+    content: '';
+    display: block;
+    width: 23px;
+    height: 23px;
+    margin: 5px auto 0;
+    background: url(../images/sprite.png) no-repeat -59px -194px;
+    background-size: 104px;
+}
+
+
+/* 广告栏模块 */
+
+.banner {
+    overflow: hidden;
+    position: relative;
+    margin-top: 44px;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.banner ul li {
+    float: left;
+    width: 20%;
+}
+
+.banner ul {
+    overflow: hidden;
+    width: 500%;
+    margin-left: -100%;
+}
+
+.banner ol {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    margin: 0;
+    list-style: none;
+}
+
+.banner ol li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 2px;
+}
+
+.banner ol .current {
+    width: 15px;
+}
+
+
+/* local导航栏模块 */
+
+.localnav {
+    display: flex;
+}
+
+.localnav a {
+    flex: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.localnav span[class^=nav] {
+    width: 32px;
+    height: 32px;
+    background: url(../images/localnav_bg.png);
+    background-size: 32px;
+}
+
+.localnav a .nav-icon2 {
+    background-position: 0 -32px;
+}
+
+.localnav a .nav-icon3 {
+    background-position: 0 -64px;
+}
+
+.localnav a .nav-icon4 {
+    background-position: 0 -96px;
+}
+
+.localnav a .nav-icon5 {
+    background-position: 0 -128px;
+}
+
+
+/* 主导航栏模块 */
+
+.nav {
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px 3px 0;
+}
+
+.nav .row {
+    display: flex;
+    height: 88px;
+}
+
+.row .col {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.col a {
+    flex: 1;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    line-height: 44px;
+    text-shadow: 1px 1px rgb(0 0 0 / 20%);
+}
+
+.row .col:nth-child(-n+2) {
+    border-right: 1px solid #fff;
+}
+
+.col:nth-child(n+2) a:nth-child(1) {
+    border-bottom: 1px solid #fff;
+}
+
+.nav .row:nth-child(1) {
+    background: -webkit-linear-gradient(left, #FA5A55, #FA994D);
+}
+
+.nav .row:nth-child(1) .col:nth-child(1) {
+    background: url(../images/hotel.png) no-repeat bottom;
+    background-size: 70%;
+}
+
+.nav .row:nth-child(2) {
+    margin: 3px 0;
+    background: -webkit-linear-gradient(left, #4B90ED, #53BCED);
+}
+
+.nav .row:nth-child(3) {
+    background: -webkit-linear-gradient(left, #34C2A9, #6CD559);
+}
+
+
+/* 子导航栏模块 */
+
+.subnav {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.subnav li {
+    flex: 20%;
+}
+
+.subnav li a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subnav span[class^=subnav] {
+    width: 22px;
+    height: 22px;
+    background: url(../images/subnav-bg.png);
+    background-size: 24px;
+}
+
+.subnav li a .subnav-icon2 {
+    background-position: 0 -25px;
+}
+
+.subnav li a .subnav-icon3 {
+    background-position: 0 -54px;
+}
+
+.subnav li a .subnav-icon4 {
+    background-position: 0 -84px;
+}
+
+.subnav li a .subnav-icon5 {
+    background-position: 0 -112px;
+}
+
+.subnav li a .subnav-icon6 {
+    background-position: 0 -139px;
+}
+
+.subnav li a .subnav-icon7 {
+    background-position: 0 -169px;
+}
+
+.subnav li a .subnav-icon8 {
+    background-position: 0 -197px;
+}
+
+.subnav li a .subnav-icon9 {
+    background-position: -1px -222px;
+}
+
+.subnav li a .subnav-icon10 {
+    background-position: 0 -276px;
+}
+
+.subnav li:nth-child(-n+5) {
+    margin-bottom: 20px;
+}
+
+
+/* 销售模块 */
+
+.sale-hd {
+    position: relative;
+    height: 45px;
+    border-bottom: 1px solid #ccc;
+}
+
+.sale-hd h2 {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 71px;
+    height: 18px;
+    margin: 0;
+    background: url(../images/hot.png) 0 -17px;
+    background-size: 70px;
+}
+
+.sale-hd a {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    padding: 0 10px;
+    background: -webkit-linear-gradient(left, #ff5171, #ff69c2);
+    border-radius: 7px;
+}
+
+.sale-hd a::after {
+    content: '';
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    margin-left: 3px;
+    border: 2px solid transparent;
+    border-top-color: #fff;
+    border-right-color: #fff;
+    transform: rotate(45deg);
+}
+
+.sale-bd {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sale-bd a {
+    flex: 50%;
+    box-sizing: border-box;
+    border-bottom: 1px solid #eee;
+}
+
+.sale-bd a img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.sale-bd a:nth-child(odd) {
+    border-right: 1px solid #eee;
+}
+
+
+/* 返回顶部按钮 */
+
+.goback {
+    display: none;
+    position: fixed;
+    bottom: 100px;
+    right: 30px;
+    width: 39px;
+    height: 39px;
+    background: url(../upload/back.png) no-repeat;
+    background-size: 39px;
+}

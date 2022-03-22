@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>伪元素使用场景-字体图标</title>
+    <style>
+        @font-face {
+            font-family: 'icomoon';
+            src: url('fonts/icomoon.eot?4f65uw');
+            src: url('fonts/icomoon.eot?4f65uw#iefix') format('embedded-opentype'),
+                url('fonts/icomoon.ttf?4f65uw') format('truetype'),
+                url('fonts/icomoon.woff?4f65uw') format('woff'),
+                url('fonts/icomoon.svg?4f65uw#icomoon') format('svg');
+            font-weight: normal;
+            font-style: normal;
+            font-display: block;
+        }
+
+        div {
+            position: relative;
+            width: 300px;
+            height: 50px;
+            margin: 100px auto;
+        }
+
+        div::after {
+            position: absolute;
+            top: 25px;
+            right: 15px;
+            content: '';
+            font-family: 'icomoon';
+            font-size: 12px;
+            color: seagreen;
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+</body>
+
+</html>

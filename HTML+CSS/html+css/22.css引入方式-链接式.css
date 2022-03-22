@@ -1,0 +1,9 @@
+/* 外部样式表：样式单独写到css文件中，之后把css文件引入到html文件中，使用<link>标签引入html文件中。 */
+/* <link rel="stylesheet" href="css路径文件名">  */
+body {
+    color: royalblue;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 60px;
+    font-family: 'Microsoft yahei' ;
+}

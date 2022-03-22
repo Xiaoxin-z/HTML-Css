@@ -1,0 +1,37 @@
+/* 基础选择器-1（标签选择器）：相同标签，不能差异化 */
+p {
+    color: red;
+    font-weight: 700;
+}
+
+/* 基础选择器-2（类选择器）：可以选择一个或者多个标签，可以根据需求多次使用 */
+.id名 {
+    color: red;
+    font-size: 25px;
+    font-family: 'MICrosoft yahei';
+
+}
+/* <p calss="id名">张振飞大刷币</P> */
+
+/* 基础选择器-3（id选择器）：一次只能选择1次标签，id属性只能在html文件中出现一次 */
+#id名 {
+    color: red;
+    font-size: 35px;
+    font-family: 'MICrosoft yahei';
+}
+/* <p id="id名">张振飞大刷币</P> */
+
+/* 基础选择器-4（通配符选择器）：当前html文件所有标签，差异性较差 */
+* {
+    color: red;
+    font-size: 40px;
+    font-family:  'MICrosoft yahei';
+}
+
+/* 复合属性：顺序不能改变，且font-size和font-famliy必须出现，font-style和font-weight和line-height可以默认不写 */
+body {
+    font: font-style font-weight font-size/line-height font-family;
+}
+body {
+    font: italic 700 20px/25px 'Microsoft yahei';
+}

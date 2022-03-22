@@ -1,0 +1,123 @@
+.sk img {
+    position: absolute;
+    top: 43px;
+    left: 186px;
+    padding: 3px 14px;
+    border-left: 1px solid #b1191a;
+}
+
+.nav {
+    overflow: hidden;
+    height: 47px;
+    line-height: 47px;
+}
+
+.nav li {
+    float: left;
+}
+
+.sk_list {
+    float: left;
+}
+
+.sk_con {
+    float: left;
+}
+
+.sk_list ul li a {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0 23px;
+}
+
+.sk_con ul li a {
+    font-size: 14px;
+    padding: 0 23px;
+}
+
+.sk_con ul li:last-child a::after {
+    content: '\ea50';
+    font-family: 'icomoon';
+}
+
+.sk_bd ul li {
+    float: left;
+    width: 290px;
+    height: 460px;
+    border: 1px solid transparent;
+}
+
+.sk_bd ul li:hover {
+    border: 1px solid #b1191a;
+}
+
+.sk_bd ul li p {
+    padding-left: 12px;
+    font-size: 14px;
+}
+
+.much {
+    padding-left: 11px;
+    margin-top: 8px;
+    font-weight: 700;
+}
+
+.much .much1 {
+    font-size: 14px;
+    color: #e60012;
+}
+
+.much .much2 {
+    font-size: 22px;
+    color: #e60012;
+}
+
+.much .much3 {
+    font-size: 14px;
+    color: #a4a4a4;
+    text-decoration: line-through;
+}
+
+.cell {
+    padding-left: 11px;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.cell dl dd {
+    float: left;
+}
+
+.bar {
+    width: 132px;
+    height: 12px;
+    margin: 5px 12px;
+    border: 1px solid #ed282e;
+    border-radius: 6px;
+}
+
+.bar .bar_in {
+    width: 87%;
+    height: 100%;
+    background-color: #ed282e;
+}
+
+.sk_bd ul li .buy a {
+    display: block;
+    width: 288px;
+    height: 49px;
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 49px;
+    color: #fff;
+    text-align: center;
+    background-color: #b1191a;
+}
+
+.sk_bd ul li {
+    margin-right: 12px;
+}
+
+.sk_bd ul li:nth-child(4n) {
+    margin: 0;
+}

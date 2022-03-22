@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>表格标签(显示展示数据）</title>
+</head>
+
+<body>
+    <!-- 表格标签:用于展示数据；align(网页对齐方式left，center，right)；border(像素，边框)；cellpadding(像素值，单元格内容与边框之前的距离，默认1像素)；cellspacing(像素值，单元格之前的距离，默认2像素)，width(像素，列表宽)，height(像素，列表高)-->
+    <table align="center" border="1" cellpadding="2" cellspacing="0" width="500" height="249">
+        <tr>
+            <th>姓名</th>
+            <th>政治</th>
+            <th>英语</th>
+            <th>数学</th>
+        </tr>
+        <tr>
+            <td>张振飞</td>
+            <td>98</td>
+            <td>67</td>
+            <td>87</td>
+        </tr>
+        <tr>
+            <td>孙彤</td>
+            <td>67</td>
+            <td>55</td>
+            <td>77</td>
+        </tr>
+        <tr>
+            <td>张扬</td>
+            <td>66</td>
+            <td>55</td>
+            <td>33</td>
+        </tr>
+
+
+
+        <table align="center" border="1" cellpadding="2" cellspacing="0" width="500" height="249">
+            <tr>
+                <th>姓名</th>
+                <th>政治</th>
+                <th>英语</th>
+                <th>数学</th>
+            </tr>
+            <tr>
+                <td>张振飞</td>
+                <td>98</td>
+                <td>67</td>
+                <td rowspan="2">87</td>
+            </tr>
+            <tr>
+                <td>孙彤</td>
+                <td>67</td>
+                <td>55</td>
+            </tr>
+            <tr>
+                <td>张扬</td>
+                <td colspan="2">66</td>
+                <td>33</td>
+            </tr>
+        </table>
+
+</body>
+
+</html>

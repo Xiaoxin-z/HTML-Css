@@ -1,0 +1,144 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.color_red {
+    color: #c81623;
+}
+
+header {
+    height: 84px;
+    padding-top: 17px;
+    border-bottom: 2px solid #b1191a;
+}
+
+.registerarea {
+    height: 620px;
+    margin-top: 20px;
+    border: 1px solid #dfdfdf;
+}
+
+.registerarea_hd {
+    height: 42px;
+    line-height: 42px;
+    padding: 0 10px;
+    border-bottom: 1px solid #dfdfdf;
+    background-color: #ececec;
+}
+
+.tf {
+    float: left;
+    font-size: 18px;
+}
+
+.tr {
+    float: right;
+}
+
+.reg_form {
+    width: 600px;
+    margin: 50px auto;
+}
+
+.reg_form ul li label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+}
+
+.reg_form ul li {
+    margin-bottom: 20px;
+}
+
+.reg_form ul li .inp {
+    width: 242px;
+    height: 37px;
+    outline: none;
+    border: 1px solid #ececec;
+}
+
+.error_icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-top: -2px;
+    vertical-align: middle;
+    background: url(../images/error.png) no-repeat;
+}
+
+.success_icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-top: -2px;
+    vertical-align: middle;
+    background: url(../images/success.png) no-repeat;
+}
+
+.safe {
+    padding-left: 167px;
+}
+
+.safe em {
+    padding: 0 12px;
+    color: #fff;
+}
+
+.safe .ruo {
+    background-color: #de1111;
+}
+
+.safe .zhong {
+    background-color: #40b83f;
+}
+
+.safe .qiang {
+    background-color: #f79100;
+}
+
+.agree {
+    padding-left: 90px;
+}
+
+.agree input {
+    vertical-align: middle;
+    margin-top: -2px;
+}
+
+.agree a {
+    color: #1ba1e6;
+}
+
+.btn {
+    width: 200px;
+    height: 34px;
+    margin: 30px 0 0 100px;
+    background-color: #c81623;
+    border: none;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.mod_copyright {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.copyright {
+    line-height: 20px;
+    margin-top: 8px;
+}
+
+.links a {
+    margin: 0 11px;
+}
+
+.success {
+    color: greenyellow;
+}
+
+.wrong {
+    color: red;
+}

@@ -1,0 +1,87 @@
+body {
+    width: 10rem;
+    min-width: 320px;
+    max-width: 750px;
+    margin: 0 auto;
+    height: 3000px;
+    background-color: #F2F4F7;
+}
+@media screen and (min-width:750px) {
+    html {
+        font-size: 75px!important;
+    }
+}
+a {
+    text-decoration: none;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.warp {
+    background-color: #fff;
+    padding-bottom: .5733rem;
+}
+// 头部 模块
+.header {
+    height: 1.0667rem;
+    border-bottom: 1px solid #EAEAEA;
+    font-size: .4667rem;
+    text-align: center;
+    line-height: 1.0667rem;
+}
+// 导航栏 模块
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: .6rem;
+    a {
+        flex: 33.33%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: .8rem;
+        img {
+            width: 1.8133rem;
+            height: 1.8133rem;
+        }
+        span {
+            font-size: .3333rem;
+            color: #707070;
+        }
+    }
+}
+// banner 模块
+.banner {
+    text-align: center;
+    img {
+        width: 9.6267rem;
+    }
+}
+.content {
+    padding: .6rem .32rem;
+    background-color: #fff;
+    margin-top: .1333rem;
+    .content-hd {
+        display: flex;
+        justify-content: space-between;
+        height: 1.4933rem;
+        h5 {
+            font-size: .3733rem;
+            color: #333333;
+            &::before {
+                content: '';
+                display: inline-block;
+                width: .5067rem;
+                height: .5067rem;
+                margin-right: .24rem;
+                background: url(../images/congtent1@2x.png);
+                vertical-align: bottom;
+            }
+        }
+        a {
+            font-size: .2933rem;
+            color: #999999;
+        }
+    }
+}

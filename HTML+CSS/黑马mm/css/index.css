@@ -1,0 +1,84 @@
+body {
+  width: 10rem;
+  min-width: 320px;
+  max-width: 750px;
+  margin: 0 auto;
+  height: 3000px;
+  background-color: #F2F4F7;
+}
+@media screen and (min-width: 750px) {
+  html {
+    font-size: 75px!important;
+  }
+}
+a {
+  text-decoration: none;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+.warp {
+  background-color: #fff;
+  padding-bottom: 0.5733rem;
+}
+.header {
+  height: 1.0667rem;
+  border-bottom: 1px solid #EAEAEA;
+  font-size: 0.4667rem;
+  text-align: center;
+  line-height: 1.0667rem;
+}
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0.6rem;
+}
+.nav a {
+  flex: 33.33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0.8rem;
+}
+.nav a img {
+  width: 1.8133rem;
+  height: 1.8133rem;
+}
+.nav a span {
+  font-size: 0.3333rem;
+  color: #707070;
+}
+.banner {
+  text-align: center;
+}
+.banner img {
+  width: 9.6267rem;
+}
+.content {
+  padding: 0.6rem 0.32rem;
+  background-color: #fff;
+  margin-top: 0.1333rem;
+}
+.content .content-hd {
+  display: flex;
+  justify-content: space-between;
+  height: 1.4933rem;
+}
+.content .content-hd h5 {
+  font-size: 0.3733rem;
+  color: #333333;
+}
+.content .content-hd h5::before {
+  content: '';
+  display: inline-block;
+  width: 0.5067rem;
+  height: 0.5067rem;
+  margin-right: 0.24rem;
+  background: url(../images/congtent1@2x.png);
+  vertical-align: bottom;
+}
+.content .content-hd a {
+  font-size: 0.2933rem;
+  color: #999999;
+}

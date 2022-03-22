@@ -1,0 +1,24 @@
+/* 字体样式（font-style）:不倾斜normal，倾斜italic */
+p {
+    font-style: italic;
+} 
+
+/* 字体粗细(font-weight):加粗bold或者700，不加粗400或者nromal，不加px单位，网页默认400 */
+p {
+    font-weight: 700;
+}
+
+/* 字体大小:(font-size):网页默认16px，标题标签比较特殊，得单独设置大小 */
+p {
+    font-size: 20px;
+}
+
+/* 行高（line-height）：字体大小+上间距+下间距 */
+p {
+    line-height: 25px;
+}
+
+/* 字体属性(font-family)：字体之间用,隔开 */
+p {
+    font-family: 'Microsoft yahei';
+}

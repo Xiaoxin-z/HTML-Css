@@ -1,0 +1,25 @@
+body {
+    font: 16px/28px 'Microsoft yahei';
+}
+
+.center {
+    text-align: center;
+    color: #888;
+}
+h4 {
+    color: blue;
+}
+p {
+    text-indent: 2em;
+}
+h1 {
+    font-weight: 400;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+div {
+    font-size: 12px;
+}

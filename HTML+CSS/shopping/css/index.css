@@ -1,0 +1,326 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main {
+    width: 980px;
+    height: 455px;
+    margin: 10px 0 0 220px;
+}
+
+.focus {
+    float: left;
+    width: 721px;
+    height: 455px;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* swiper样式 */
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.newsflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+}
+
+.news {
+    height: 165px;
+    border: 1px solid #e4e4e4;
+}
+
+.bargain {
+    height: 75px;
+    margin-top: 5px;
+}
+
+.news .news-hd {
+    position: relative;
+    height: 33px;
+    padding: 0 30px 0 15px;
+    line-height: 33px;
+    border-bottom: 1px dashed #e4e4e4;
+}
+
+.news .news-hd h5 {
+    float: left;
+    font-size: 14px;
+}
+
+.news .news-hd a {
+    float: right;
+}
+
+.news .news-hd a::after {
+    position: absolute;
+    top: 1px;
+    right: 16px;
+    content: '\ea51';
+    font-family: 'icomoon';
+    font-size: 16px;
+}
+
+.news .news-bd {
+    padding: 9px;
+}
+
+.news .news-bd ul li {
+    height: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.lifeservice {
+    overflow: hidden;
+    height: 209px;
+    border: 1px solid #e4e4e4;
+    border-top: none;
+}
+
+.lifeservice ul li {
+    float: left;
+    width: 63px;
+    height: 70px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+}
+
+.lifeservice ul {
+    width: 252px;
+}
+
+.lifeservice ul li i {
+    display: inline-block;
+    width: 23px;
+    height: 26px;
+    margin-top: 13px;
+    background: url(../images/icons.png) no-repeat -17px -15px;
+}
+
+.lifeservice ul li:nth-child(2) {
+    position: relative;
+}
+
+.lifeservice ul li .call {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 22px;
+    width: 12px;
+    font-size: 10px;
+    color: #fff;
+    background-color: #589d5a;
+}
+
+.lifeservice ul li .triangle {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-bottom-color: #fff;
+}
+
+.recom {
+    height: 163px;
+    margin-top: 11px;
+}
+
+.recom-hd {
+    float: left;
+    width: 206px;
+    height: 163px;
+    background-color: #5c5251;
+    text-align: center;
+}
+
+.recom-hd img {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.recom-hd p {
+    font-size: 18px;
+    color: #fff;
+}
+
+.recom-bd {
+    float: left;
+    background-color: #ebebeb;
+}
+
+.recom-bd ul li {
+    position: relative;
+    float: left;
+}
+
+.recom-bd ul li:nth-child(-n+3)::after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 1px;
+    height: 145px;
+    background-color: #ddd;
+}
+
+.like {
+    height: 261px;
+    margin-top: 30px;
+}
+
+.like-hd {
+    height: 28px;
+}
+
+.like-hd h1 {
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.like-hd a {
+    float: right;
+}
+
+.like-hd a::after {
+    content: '\ea2e';
+    font-family: 'icomoon';
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.like-bd {
+    height: 233px;
+    border: 1px solid #ededed;
+}
+
+.like-bd ul li {
+    float: left;
+    width: 200px;
+    height: 231px;
+    text-align: center;
+}
+
+.like-bd ul {
+    width: 1200px;
+}
+
+.like-bd ul li img {
+    margin-top: 12px;
+}
+
+.like-bd ul li span {
+    margin-right: 47px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #df3033;
+}
+
+.box_hd {
+    height: 30px;
+    margin-top: 28px;
+    border-bottom: 2px solid #c81623;
+}
+
+.box_hd h3 {
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+    color: #c81623;
+}
+
+.box_hd .tab_list {
+    float: right;
+}
+
+.box_hd .tab_list ul li {
+    float: left;
+}
+
+.box_hd .tab_list ul li:nth-child(even) {
+    width: 1px;
+    height: 12px;
+    margin: 4px 16px 0;
+    background-color: #999999;
+}
+
+.box_bd {
+    height: 360px;
+}
+
+.tab_list_item>div {
+    float: left;
+    height: 360px;
+}
+
+.col_210 {
+    width: 210px;
+}
+
+.col_329 {
+    width: 329px;
+}
+
+.col_221 {
+    width: 221px;
+    border-right: 1px solid #ededed;
+}
+
+.col_221 a {
+    display: block;
+    border-bottom: 1px solid #ededed;
+}
+
+.col_219 {
+    width: 219px;
+}
+
+.col_219 a {
+    display: block;
+    border-bottom: 1px solid #ededed;
+}
+
+.col_210 ul li {
+    float: left;
+    width: 86px;
+    height: 33px;
+    margin-left: 12px;
+    text-align: center;
+    line-height: 33px;
+    border-bottom: 1px solid #ededed;
+}

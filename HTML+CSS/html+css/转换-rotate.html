@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* img {
+            display: block;
+            width: 200px;
+            margin: 100px auto;
+            border: 5px solid pink;
+            border-radius: 50%;
+            transition: all 1s;
+        }
+        
+        img:hover {
+            transform: rotate(360deg);
+        } */
+        
+        div {
+            position: relative;
+            height: 30px;
+            width: 200px;
+            border: 1px solid #000;
+        }
+        
+        div::after {
+            content: '';
+            position: absolute;
+            top: 6px;
+            right: 6px;
+            width: 10px;
+            height: 10px;
+            border-right: 1px solid #000;
+            border-bottom: 1px solid #000;
+            transform: rotate(45deg);
+            transition: all .2s;
+        }
+        
+        div:hover::after {
+            transform: rotate(225deg);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <img src="bike.jpg" alt=""> -->
+    <div></div>
+</body>
+
+</html>
